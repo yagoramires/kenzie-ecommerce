@@ -1,0 +1,118 @@
+.sidebar form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.sidebar form input {
+    padding: 12px;
+    background: var(--gray-0);
+    border: none;
+    outline: none;
+}
+
+.sidebar form input[type=submit] {
+    background-color: var(--color-secondary);
+    color: var(--gray-0);
+    cursor: pointer;
+}
+
+.sidebar .cart {
+    width: 100%;
+    background-color: var(--gray-0);
+}
+
+.sidebar .cart h2 {
+    width: 100%;
+    color: var(--gray-0);
+    background: var(--color-secondary);
+    font-size: var(--body);
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar .cart .empty {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.sidebar .cart .empty h3 {
+    font-size: var(--body);
+
+}
+
+.sidebar .cart .empty p {
+    font-size: var(--small);
+}
+
+.sidebar .cart .cart-list {
+    margin-top: 24px;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.sidebar .cart .cart-item {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sidebar .cart .cart-item div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.sidebar .cart .cart-item img {
+    width: 100px;
+}
+
+.sidebar .cart .cart-item h3 {
+    font-size: var(--body);
+}
+
+.sidebar .cart .cart-item span {
+    font-size: var(--small);
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+.sidebar .cart .cart-item button {
+    font-size: var(--small);
+}
+
+.sidebar .cart .cart-item button:hover {
+    color: var(--color-primary);
+    border-bottom: 1px solid var(--color-primary);
+}
+
+.sidebar .cart .total-container {
+    width: 100%;
+    background-color: var(--gray-100);
+    color: var(--gray-0);
+    padding: 12px 0;
+}
+
+.sidebar .cart .total-container div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}

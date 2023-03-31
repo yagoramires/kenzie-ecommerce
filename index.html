@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Weartake</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1>Weartake</h1>
+        <nav>
+          <ul>
+            <li class="category">Todos</li>
+            <li class="category">Acessórios</li>
+            <li class="category">Camisetas</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="products-list"></section>
+      <aside class="sidebar">
+        <form id="search-form">
+          <input
+            type="text"
+            placeholder="Digite aqui sua pesquisa"
+            id="search-input"
+          />
+          <input type="submit" value="Pesquisar" />
+        </form>
+        <div class="cart"></div>
+      </aside>
+    </main>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>

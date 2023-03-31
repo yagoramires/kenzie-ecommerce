@@ -1,0 +1,55 @@
+@import url('./header.css');
+@import url('./productsList.css');
+@import url('./card.css');
+@import url('./sidebar.css');
+
+:root {
+    --title-1: 28px;
+    --title-2: 24px;
+    --title-3: 20px;
+    --title-4: 16px;
+    --headline: 16px;
+    --body: 14px;
+    --small: 10px;
+    --color-primary: #2E245E;
+    --color-secondary: #37268C;
+    --gray-100: #333333;
+    --gray-50: #828282;
+    --gray-0: #F5F5F5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+main,
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+main {
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
+}
